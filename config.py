@@ -1,0 +1,6 @@
+OCEAN_API_KEY = "api_here"
+PROSPEO_API_KEY = "api_here"
+EAZYREACH_API_KEY = "your_eazyreach_key_here"
+BREVO_API_KEY = "xxx"
+SENDER_EMAIL = "xxx"
+SENDER_NAME = "xxx"
