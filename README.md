@@ -12,25 +12,25 @@ A fully automated cold-outreach pipeline that takes one company domain as input 
 ## Setup
 
 1. Clone the repo
-2. Install dependencies:
-   pip install requests
-3. Add your API keys in config.py
-4. Run the pipeline:
-   python3 main.py
+2. Install dependencies: `pip install requests`
+3. Add your API keys in `config.py`
+4. Run the pipeline: `python3 main.py`
 
 ## Usage
 
+```bash
 python3 main.py
-Enter seed domain (e.g. stripe.com): stripe.com
+# Enter seed domain (e.g. stripe.com): stripe.com
+```
 
 ## Safety
 
-A confirmation checkpoint is shown before any emails are sent.
-The user must type "yes" to proceed.
+A confirmation checkpoint is shown before any emails are sent. The user must type `yes` to proceed.
 
 ## Project Structure
 
-outreach-pipeline/
+```
+ideal_solution_pipeline/
 ├── main.py
 ├── config.py
 ├── stages/
@@ -39,8 +39,4 @@ outreach-pipeline/
 │   ├── eazyreach.py
 │   └── brevo.py
 └── README.md
-# ideal_solution_pipeline
-# ideal_solution_pipeline
-# ideal_solution_pipeline
-# ideal_solution_pipeline
-# ideal_solution_pipeline
+```
